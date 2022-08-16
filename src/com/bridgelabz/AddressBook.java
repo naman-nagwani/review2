@@ -30,10 +30,6 @@ public class AddressBook {
         contactList.add(contacts);
     }
 
-    public List getList() {
-        return contactList;
-    }
-
     public void printAllContacts() {
         for (int i = 0; i < contactList.size(); i++) {
             System.out.println(contactList.get(i));
